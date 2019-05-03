@@ -1,0 +1,20 @@
+#grad1 {
+  height: 2000px;
+  background-image: linear-gradient(midnightblue, deepskyblue, lightblue); 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.body {
+	text-decoration-color: white;
+}
+

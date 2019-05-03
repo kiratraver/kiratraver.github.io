@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    function changeImg() {
+
+var one = documet.getElementsByClassName("1.jpeg")[0];
+        if (1.src == "1.jpeg"){
+        	1.src = "2.jpeg";
+        }
+      
+        else 
+        {
+            1.src = "1.jpeg";
+        }
+    }
+</script>

@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: georgia;
+}
+
+h2 {
+	color: white;
+  text-align: center;
+  font-family: georgia;
+
+}
+
+h3 {
+	color: white;
+  text-align: center;
+  font-family: georgia;
+
+}
+
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: white;
+}

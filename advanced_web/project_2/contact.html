@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUBMIT</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+
+<body>
+<center><img src="finallogo.jpg" alt="logo" height="140" width="480"></center>
+<hr>
+<div class="navbar"><ul>
+  <li><a class="active" href="index.html">home</a></li>
+  <li><a href="gallery.html">recipes</a></li>
+  <li><a  href="contact.html">submit</a></li>
+</ul></div>
+<hr>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>SUBMIT A RECIPE</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="bg2.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="name...">
+       
+        <label for="fname">Email</label>
+        <input type="text" id="email" name="email" placeholder="email...">
+        <textarea rows="4" cols="50" placeholder="message..."></textarea>
+        <form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*">
+        <input type="submit" value="Submit">
+      
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
